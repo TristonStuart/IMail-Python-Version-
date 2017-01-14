@@ -22,7 +22,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         print("{} wrote: ".format(self.client_address[0]) + self.data)
         print(" ")
         with open('Mail/m-' + time.strftime("%H-%M-%S") + 'mail.txt', "a+") as f:
-            f.write("<Imail>\n \n Sender : " + self.dataArray[1] + '\n \n Message :\n ' + self.dataArray[0] + '\n  \n Network : ' + self.client_address[0])
+            f.write("<Imail>\n \n Sender : " + self.dataArray[1] + '\n \n Message : ' + self.dataArray[0] + '\n  \n Network : ' + self.client_address[0])
 
 if __name__ == "__main__":
     HOST, PORT = "localhost", 350
