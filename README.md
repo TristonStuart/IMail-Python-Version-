@@ -17,7 +17,7 @@ Description :
   IMail feautures simple commands such as /sender which allows you to change your sender Id on email (Like from).
   Your ip address is sent to the person recieving the email so they can respond and confirm you are the real you.
 
-Must Port Forward on port 350 to recieve Mail!
+**Must Port Forward on port 350 to recieve Mail!**
 
 Commands : 
 
