@@ -1,7 +1,7 @@
 # IMail [Python-Version]
 
 ## Download (.EXE Version [FULL RELEASE]): 
-** Version 1 : https://mega.nz/#!xUUBAaYA!18EXRuqmZRSXCfmJRwZNeFjejBblQsQ6pZxzw7rTf5g **
+**Version 1 : https://mega.nz/#!xUUBAaYA!18EXRuqmZRSXCfmJRwZNeFjejBblQsQ6pZxzw7rTf5g**
 
 
 
