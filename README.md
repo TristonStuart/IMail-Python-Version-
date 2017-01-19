@@ -1,5 +1,10 @@
 # IMail [Python-Version]
 
+## Download (.EXE Version [FULL RELEASE]): 
+** Version 1 : https://mega.nz/#!xUUBAaYA!18EXRuqmZRSXCfmJRwZNeFjejBblQsQ6pZxzw7rTf5g **
+
+
+
 Info : 
 
  - Version : 1.1
@@ -8,7 +13,7 @@ Info :
 
  - Language : Python
 
- - Python Version : 3.6
+ - Python Version : 3.x (3.4 and 3.6 have been tested)
 
 Description : 
 
