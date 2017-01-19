@@ -1,0 +1,1 @@
+START .\src\MailServer\mailServer.exe

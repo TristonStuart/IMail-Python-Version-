@@ -1,0 +1,1 @@
+START .\src\MailRoom\mailRoom.exe
