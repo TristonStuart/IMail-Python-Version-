@@ -25,10 +25,10 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
             f.write("<Imail>\n \n Sender : " + self.dataArray[1] + '\n \n Message : ' + self.dataArray[0] + '\n  \n Network : ' + self.client_address[0])
 
 if __name__ == "__main__":
-    HOST, PORT = "localhost", 350
+    HOST, PORT = input("Please enter your IPV4 address : "), 350
 
     # Create the server, binding to localhost on port 9999
-    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+    server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
         # Activate the server; this will keep running until you
         # interrupt the program with Ctrl-C
-        server.serve_forever()
+    server.serve_forever()
